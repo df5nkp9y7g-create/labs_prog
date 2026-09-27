@@ -41,7 +41,7 @@ public class labProg1 {
             for (int j = 0; j < size_y; j++) {
 
                 if (arr_e[i] == 7) {
-                    goal_arr[i][j] = Math.sin(Math.cbrt(Math.cbrt(Math.cbrt(arr_x[j]))));
+                    goal_arr[i][j] = Math.sin(Math.cbrt(Math.cbrt(arr_x[j])));
 
                 } else if (arr_e[i] == 9 || arr_e[i] == 13 || arr_e[i] == 17) {
                     double exponent = Math.exp(-2*Math.abs(arr_x[j]));
